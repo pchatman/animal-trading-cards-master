@@ -1,2 +1,12 @@
 /* add your CSS here */
-div.mb {border-style: solid;}
+/* || Borders and backgroud*/
+div.mb {
+    border-style: solid;
+}
+
+/* || image*/
+img {
+    margin-left:auto; 
+    margin-right: auto; 
+    display:block;
+}
