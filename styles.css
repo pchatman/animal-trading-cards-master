@@ -6,6 +6,14 @@
     text-align: auto;
 }
 
+.animal-descrip-para {
+    font-style: italic;
+}
+
+span {
+    font-weight: bold;
+}
+
 /* || image*/
 img {
     /*margin-left:auto; */
@@ -20,6 +28,7 @@ img {
     display:block;
     /*text-align: center;*/
     font-size:xx-large;
+    /*font-weight: bold;*/
 }
 
 /* Remove bullets points or number from list */
