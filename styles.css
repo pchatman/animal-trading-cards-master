@@ -1,12 +1,24 @@
 /* add your CSS here */
+
 /* || Borders and backgroud*/
-div.mb {
+.mb {
     border-style: solid;
+    text-align: auto;
 }
 
 /* || image*/
 img {
-    margin-left:auto; 
-    margin-right: auto; 
+    /*margin-left:auto; */
+    /*margin-right: auto; */
     display:block;
+    max-width: 300;
+    max-height: 200;
+   }
+
+/* || h3 */
+.animal-name {
+    display:block;
+    /*text-align: center;*/
+    font-size:xx-large;
 }
+
