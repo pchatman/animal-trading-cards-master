@@ -1,7 +1,7 @@
 /* add your CSS here */
 
 /* || Borders and backgroud*/
-.mb {
+.animal-descrip {
     border-style: solid;
     text-align: auto;
 }
@@ -22,3 +22,7 @@ img {
     font-size:xx-large;
 }
 
+/* Remove bullets points or number from list */
+ul {
+    list-style: none;
+}
