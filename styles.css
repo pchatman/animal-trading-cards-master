@@ -13,7 +13,7 @@
 
 /* || Borders and backgroud*/
 .animal-descrip {
-    /* border-style: solid;*/
+
     width: 283px;
     border: 1px solid #DCDCDC;
     padding-right: .5em;
@@ -31,11 +31,7 @@ span {
 
 /* || image*/
 .animal-image {
-    /*margin-left:auto; */
-    /*margin-right: auto; */
-    /*display: block;*/
-    /*max-width: 300;*/
-    /*max-height: 200;*/
+
     width: 300px;
     height: 200px;
     padding-bottom: .8em;
@@ -43,8 +39,7 @@ span {
 
 /* || h3 */
 .animal-name {
-    /*display: block;*/
-    /*text-align: center;*/
+
     font-size: xx-large;
     /*font-weight: bold;*/
 }
