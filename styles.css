@@ -1,9 +1,23 @@
 /* add your CSS here */
 
+/* || Creates main border */
+/*Container*/
+.container {
+    width: 310px;
+    border: 1px solid #efe6e6e5;
+    box-shadow: 6px 6px 1px 0px #4c62855d;
+    padding-right: .2em;
+    padding-left: .7em;
+    padding-bottom: .6em;
+}
+
 /* || Borders and backgroud*/
 .animal-descrip {
-    border-style: solid;
-    text-align: auto;
+    /* border-style: solid;*/
+    width: 283px;
+    border: 1px solid #DCDCDC;
+    padding-right: .5em;
+    padding-left: .5em;
 }
 
 .animal-descrip-para {
@@ -14,24 +28,31 @@ span {
     font-weight: bold;
 }
 
+
 /* || image*/
-img {
+.animal-image {
     /*margin-left:auto; */
     /*margin-right: auto; */
-    display:block;
-    max-width: 300;
-    max-height: 200;
-   }
+    /*display: block;*/
+    /*max-width: 300;*/
+    /*max-height: 200;*/
+    width: 300px;
+    height: 200px;
+    padding-bottom: .8em;
+}
 
 /* || h3 */
 .animal-name {
-    display:block;
+    /*display: block;*/
     /*text-align: center;*/
-    font-size:xx-large;
+    font-size: xx-large;
     /*font-weight: bold;*/
 }
 
+/* || Interesting facts about animal*/
 /* Remove bullets points or number from list */
-ul {
-    list-style: none;
+.animal-facts {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
